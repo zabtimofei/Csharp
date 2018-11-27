@@ -16,7 +16,13 @@ namespace HomeWork1._4
             x = y;
             y = z;
 
-
+            int a = 10;
+            int b = 5;
+            a = a + b;
+            b = a - b;
+            a = a - b;
+            Console.WriteLine("a=" + a +" b=" + b);
+            Console.ReadLine();
 
 
             
