@@ -8,5 +8,21 @@ namespace Lesson3
 {
     class Drob
     {
+        private double _Nominator;
+        private double _Denominator;
+
+        public Drob(double Nominator, double Denominator)
+        {
+            if (Denominator == 0)
+            {
+                throw new DivideByZeroException("Знаменатель дроби равен нулю");
+            }
+            _Nominator = Nominator;
+            _Denominator = Denominator;
+        }
+        public double GetValue(double Nominator, double Denominator)
+        {
+
+        }
     }
 }
